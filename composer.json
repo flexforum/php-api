@@ -1,0 +1,21 @@
+{
+    "name": "flexforum/api",
+    "description": "Flexforum base API for PHP.",
+    "source": "https://gitlab.com/flexforum/php-api",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "keywords": ["forum"],
+    "authors": [
+        {
+            "name": "Sierk Beij",
+            "email": "sierk@cococollective.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Flexforum\\Api\\": "src" }
+    }
+}
